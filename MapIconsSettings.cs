@@ -58,7 +58,7 @@ public class MapIconsSettings : ISettings
                 new TextNode("^Metadata/Monsters/TormentedSpirits/.*OnDeath$"),
                 // Verisium Sentry
                 new TextNode("^Metadata/Monsters/LeagueExpeditionNew/Sentinels/KalguurDrone$"),
-                // Explosive barrels in pirate camps; not a real monster
+                // Explosive barrels in pirate camps
                 new TextNode("^Metadata/Monsters/Pirates/CampExplosion$"),
             ],
             EnableControls = true,

@@ -54,6 +54,12 @@ public class MapIconsSettings : ISettings
                 // Not real monsters in Grand Expedition
                 new TextNode("^Metadata/Monsters/LeagueExpeditionNew/RuneEncounterController$"),
                 new TextNode("^Metadata/Monsters/LeagueExpeditionNew/ExpeditionRuneElementalTornado$"),
+                // Tormented spirit on-death entities
+                new TextNode("^Metadata/Monsters/TormentedSpirits/.*OnDeath$"),
+                // Expedition Kalguur drone
+                new TextNode("^Metadata/Monsters/LeagueExpeditionNew/Sentinels/KalguurDrone$"),
+                // Pirate camp explosion
+                new TextNode("^Metadata/Monsters/Pirates/CampExplosion$"),
             ],
             EnableControls = true,
             ItemFactory = () => new TextNode(""),

@@ -56,9 +56,9 @@ public class MapIconsSettings : ISettings
                 new TextNode("^Metadata/Monsters/LeagueExpeditionNew/ExpeditionRuneElementalTornado$"),
                 // Tormented spirit on-death entities
                 new TextNode("^Metadata/Monsters/TormentedSpirits/.*OnDeath$"),
-                // Expedition Kalguur drone
+                // Verisium Sentry
                 new TextNode("^Metadata/Monsters/LeagueExpeditionNew/Sentinels/KalguurDrone$"),
-                // Pirate camp explosion
+                // Explosive barrels in pirate camps; not a real monster
                 new TextNode("^Metadata/Monsters/Pirates/CampExplosion$"),
             ],
             EnableControls = true,
